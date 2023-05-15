@@ -22,23 +22,24 @@ header{
     }
     nav {
         ul{
-            display:flex;
-            margin-top: 30px;
-            gap:30px;
-            color: white;
-            font-weight: bold;
+        display:flex;
+        margin-top: 30px;
+        gap:30px;
+        color: white;
+        font-weight: bold;
         }
-        
-    }
 
+        
     .rightbtn{
+        display: grid;
+        justify-content: flex-end;
+        
             
         .btn1{
             border: 10px solid black;
             &:hover{
                 background-color: #541554;
             }
-        
         }
         .btn2 {
             color:#541554;
@@ -46,6 +47,7 @@ header{
             background-color: white;
             }
         }
+    }
 
                     
     }
@@ -72,6 +74,20 @@ header{
             color: white;
             padding-right: 800px;
         }
+        .textheaderbtn1{
+            color:#541554;
+            font-size: 20px;
+            &:hover{
+                background-color: white;
+            }
+        }
+        .textheaderbtn2{
+            color: white;
+            font-size: 20px;
+            &:hover{
+                background-color: rgb(102, 102, 225);
+            }
+        }
     }
 
     .imgheader{
@@ -80,4 +96,5 @@ header{
 
     }
 }
+
     

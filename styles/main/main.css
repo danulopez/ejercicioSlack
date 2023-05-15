@@ -37,16 +37,20 @@ header nav ul {
   color: white;
   font-weight: bold;
 }
-header .rightbtn .btn1 {
+header nav .rightbtn {
+  display: grid;
+  justify-content: flex-end;
+}
+header nav .rightbtn .btn1 {
   border: 10px solid black;
 }
-header .rightbtn .btn1:hover {
+header nav .rightbtn .btn1:hover {
   background-color: #541554;
 }
-header .rightbtn .btn2 {
+header nav .rightbtn .btn2 {
   color: #541554;
 }
-header .rightbtn .btn2:hover {
+header nav .rightbtn .btn2:hover {
   background-color: white;
 }
 header .text_header {
@@ -70,6 +74,20 @@ header .text_header .textolargo {
   font-size: 20px;
   color: white;
   padding-right: 800px;
+}
+header .text_header .textheaderbtn1 {
+  color: #541554;
+  font-size: 20px;
+}
+header .text_header .textheaderbtn1:hover {
+  background-color: white;
+}
+header .text_header .textheaderbtn2 {
+  color: white;
+  font-size: 20px;
+}
+header .text_header .textheaderbtn2:hover {
+  background-color: rgb(102, 102, 225);
 }
 header .imgheader {
   margin-top: 100px;
