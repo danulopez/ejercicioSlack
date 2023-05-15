@@ -1,19 +1,24 @@
 header{
 
     @include flexcenter (row,flex-start,flex-start);
-    background-color: rgb(84, 21, 84);
+    background-color: #541554;
     width: 100vw;
-    height: 50vh;
+    height: 80vh;
+    @include tablet {
+        display: none;
+    }
     .logo{
        width: 25px;
        margin-top: 25px; 
-       padding-inline:10px;   
+       padding-inline:10px; 
+       margin-left: 40px;  
     }
     .logo_slack {
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: -10px;
         padding-right: 5px;
+        
     }
     nav {
         ul{
@@ -25,10 +30,54 @@ header{
         }
         
     }
-    .rightbtn--header{
-        display:flex
-        align-items flex-end;
+
+    .rightbtn{
+            
+        .btn1{
+            border: 10px solid black;
+            &:hover{
+                background-color: #541554;
+            }
+        
+        }
+        .btn2 {
+            color:#541554;
+            &:hover{ 
+            background-color: white;
+            }
+        }
+
+                    
     }
 
+    .text_header {
+        font-size: 50px;
+        font-weight: bold;
+        display: grid;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding-top: 160px;
+        justify-content: flex-start;
+        position: absolute;
+        margin-left: 40px;
+        
+        .primertexto{
+            color: white;
+        }
+        .segundotexto {
+            color: orange;
+        }
+        .textolargo{
+            font-size: 20px;
+            color: white;
+            padding-right: 800px;
+        }
+    }
+
+    .imgheader{
+        margin-top: 100px;
+        width: 45%;
+
+    }
 }
     

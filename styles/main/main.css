@@ -9,14 +9,20 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: rgb(84, 21, 84);
+  background-color: #541554;
   width: 100vw;
-  height: 50vh;
+  height: 80vh;
+}
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
 }
 header .logo {
   width: 25px;
   margin-top: 25px;
   padding-inline: 10px;
+  margin-left: 40px;
 }
 header .logo_slack {
   font-size: 30px;
@@ -31,6 +37,117 @@ header nav ul {
   color: white;
   font-weight: bold;
 }
-header .rightbtn--header {
-  display: flex align-items flex-end;
+header .rightbtn .btn1 {
+  border: 10px solid black;
+}
+header .rightbtn .btn1:hover {
+  background-color: #541554;
+}
+header .rightbtn .btn2 {
+  color: #541554;
+}
+header .rightbtn .btn2:hover {
+  background-color: white;
+}
+header .text_header {
+  font-size: 50px;
+  font-weight: bold;
+  display: grid;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding-top: 160px;
+  justify-content: flex-start;
+  position: absolute;
+  margin-left: 40px;
+}
+header .text_header .primertexto {
+  color: white;
+}
+header .text_header .segundotexto {
+  color: orange;
+}
+header .text_header .textolargo {
+  font-size: 20px;
+  color: white;
+  padding-right: 800px;
+}
+header .imgheader {
+  margin-top: 100px;
+  width: 45%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #F4EDE4;
+}
+.container .titulo1 {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.container .iconsempresas {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 65%;
+  margin-left: 300px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+.container .imgtext {
+  width: 40%;
+  margin-left: 40px;
+}
+.container .imgtext__ider {
+  justify-content: flex-end;
+  margin-left: 800px;
+}
+.container .textocuadros {
+  display: grid;
+  justify-content: flex-end;
+  justify-items: center;
+  margin-right: 180px;
+}
+.container .titulocuadros {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -300px;
+  margin-left: 900px;
+}
+.container .parrafo {
+  margin-left: 900px;
+  margin-top: -230px;
+}
+.container .btninfo {
+  margin-top: -150px;
+  color: rgb(108, 108, 231);
+  display: grid;
+  justify-items: end;
+  margin-left: 900px;
+}
+.container .textocuadros2 {
+  display: grid;
+  justify-content: flex-start;
+  justify-items: center;
+}
+.container .titulocuadros2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -300px;
+  margin-right: 900px;
+}
+.container .parrafo2 {
+  margin-right: 900px;
+  margin-top: -230px;
+}
+.container .btninfo2 {
+  margin-top: -150px;
+  color: rgb(108, 108, 231);
+  display: grid;
+  justify-items: end;
+  margin-right: 900px;
 }/*# sourceMappingURL=main.css.map */
