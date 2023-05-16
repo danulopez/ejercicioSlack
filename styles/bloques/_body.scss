@@ -9,7 +9,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    
     
   }
   .iconsempresas{
@@ -17,74 +17,51 @@
     align-items: center;
     flex-wrap: wrap;
     width: 65%;
-    margin-left: 300px;
-    margin-top: -20px;
-    margin-bottom: 50px;
+    
 
   }
   .imgtext {
     width: 40%;
     margin-left: 40px;
-    &__ider{
-        justify-content: flex-end;
-        margin-left: 800px;
-    }
+   
   }
   .textocuadros{
     display: grid;
     justify-content: flex-end;
     justify-items: center;
-    margin-right: 180px;
   }
     
         
     .titulocuadros{
         font-size: 25px;
         font-weight: bold;
-        margin-top: -300px;
-        margin-left: 900px;
-        
     }
-    .parrafo{
-        margin-left: 900px;
-        margin-top: -230px;
-       
+           
     }
     .btninfo{
-        margin-top: -150px;
         color: rgb(108, 108, 231);
         display: grid;
         justify-items: end;
-        margin-left: 900px;
+        
     }
     .textocuadros2{
     display: grid;
     justify-content: flex-start;
     justify-items: center;
-    margin-left: 180px;
+    
     
     }
     .titulocuadros2{
         font-size: 25px;
         font-weight: bold;
-        margin-top: -300px;
-        margin-right: 900px;
+        
     }
-    .parrafo2{
-        margin-right: 900px;
-        margin-top: -230px;
-    }
-    .btninfo2{
-        margin-top: -150px;
+    
+        .btninfo2{
         color: rgb(108, 108, 231);
         display: grid;
         justify-items: end;
-        margin-right: 900px;
+        
 
     }
-
-
- 
-
-}
 

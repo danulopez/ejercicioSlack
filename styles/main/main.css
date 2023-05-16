@@ -13,11 +13,6 @@ header {
   width: 100vw;
   height: 80vh;
 }
-@media screen and (max-width: 768px) {
-  header {
-    display: none;
-  }
-}
 header .logo {
   width: 25px;
   margin-top: 25px;
@@ -37,28 +32,12 @@ header nav ul {
   color: white;
   font-weight: bold;
 }
-header nav .rightbtn {
-  display: grid;
-  justify-content: flex-end;
-}
-header nav .rightbtn .btn1 {
-  border: 10px solid black;
-}
-header nav .rightbtn .btn1:hover {
-  background-color: #541554;
-}
-header nav .rightbtn .btn2 {
-  color: #541554;
-}
-header nav .rightbtn .btn2:hover {
-  background-color: white;
-}
 header .text_header {
   font-size: 50px;
   font-weight: bold;
-  display: grid;
-  align-content: flex-start;
+  display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   padding-top: 160px;
   justify-content: flex-start;
   position: absolute;
@@ -73,25 +52,50 @@ header .text_header .segundotexto {
 header .text_header .textolargo {
   font-size: 20px;
   color: white;
-  padding-right: 800px;
 }
 header .text_header .textheaderbtn1 {
+  margin: 20px 20px 20px;
+  border: 10px solid white;
   color: #541554;
   font-size: 20px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 0.2rem;
+  background-color: white;
+  border-top: 0px solid #fff;
+  border-bottom: 3px solid white;
+  border-radius: 2px;
 }
 header .text_header .textheaderbtn1:hover {
   background-color: white;
 }
+header .text_header .logoregistration {
+  width: 15px;
+}
 header .text_header .textheaderbtn2 {
+  margin: 20px 20px 20px;
   color: white;
+  background-color: rgb(102, 102, 225);
   font-size: 20px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 0.2rem;
+  border-top: 0px solidr rgb(102, 102, 225);
+  border-bottom: 3px solid #666;
+  border-radius: 2px;
+  border: 10px rgb(102, 102, 225);
 }
 header .text_header .textheaderbtn2:hover {
   background-color: rgb(102, 102, 225);
 }
 header .imgheader {
-  margin-top: 100px;
-  width: 45%;
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 300px;
 }
 
 .container {
@@ -105,68 +109,46 @@ header .imgheader {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
 }
 .container .iconsempresas {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   width: 65%;
-  margin-left: 300px;
-  margin-top: -20px;
-  margin-bottom: 50px;
 }
 .container .imgtext {
   width: 40%;
   margin-left: 40px;
 }
-.container .imgtext__ider {
-  justify-content: flex-end;
-  margin-left: 800px;
-}
 .container .textocuadros {
   display: grid;
   justify-content: flex-end;
   justify-items: center;
-  margin-right: 180px;
 }
 .container .titulocuadros {
   font-size: 25px;
   font-weight: bold;
-  margin-top: -300px;
-  margin-left: 900px;
 }
-.container .parrafo {
-  margin-left: 900px;
-  margin-top: -230px;
-}
-.container .btninfo {
-  margin-top: -150px;
+
+.btninfo {
   color: rgb(108, 108, 231);
   display: grid;
   justify-items: end;
-  margin-left: 900px;
 }
-.container .textocuadros2 {
+
+.textocuadros2 {
   display: grid;
   justify-content: flex-start;
   justify-items: center;
-  margin-left: 180px;
 }
-.container .titulocuadros2 {
+
+.titulocuadros2 {
   font-size: 25px;
   font-weight: bold;
-  margin-top: -300px;
-  margin-right: 900px;
 }
-.container .parrafo2 {
-  margin-right: 900px;
-  margin-top: -230px;
-}
-.container .btninfo2 {
-  margin-top: -150px;
+
+.btninfo2 {
   color: rgb(108, 108, 231);
   display: grid;
   justify-items: end;
-  margin-right: 900px;
 }/*# sourceMappingURL=main.css.map */

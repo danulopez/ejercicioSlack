@@ -4,9 +4,7 @@ header{
     background-color: #541554;
     width: 100vw;
     height: 80vh;
-    @include tablet {
-        display: none;
-    }
+   
     .logo{
        width: 25px;
        margin-top: 25px; 
@@ -28,41 +26,19 @@ header{
         color: white;
         font-weight: bold;
         }
-
-        
-    .rightbtn{
-        display: grid;
-        justify-content: flex-end;
-        
-            
-        .btn1{
-            border: 10px solid black;
-            &:hover{
-                background-color: #541554;
-            }
-        }
-        .btn2 {
-            color:#541554;
-            &:hover{ 
-            background-color: white;
-            }
-        }
-    }
-
-                    
-    }
-
-    .text_header {
+    }      
+       .text_header {
         font-size: 50px;
         font-weight: bold;
-        display: grid;
-        align-content: flex-start;
+        display: flex;
         align-items: flex-start;
+        flex-wrap: wrap;
         padding-top: 160px;
         justify-content: flex-start;
         position: absolute;
         margin-left: 40px;
-        
+
+            
         .primertexto{
             color: white;
         }
@@ -72,29 +48,60 @@ header{
         .textolargo{
             font-size: 20px;
             color: white;
-            padding-right: 800px;
         }
         .textheaderbtn1{
+            margin: 20px 20px 20px;
+            border: 10px solid white;
             color:#541554;
             font-size: 20px;
             &:hover{
                 background-color: white;
             }
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            padding: .2rem;
+            background-color: white;
+            border-top: 0px solid #fff; 
+            border-bottom: 3px solid white;
+            border-radius: 2px;
+        }
+        .logoregistration{
+            width: 15px;
+            
+
         }
         .textheaderbtn2{
+            margin: 20px 20px 20px;
             color: white;
+            background-color: rgb(102, 102, 225);
             font-size: 20px;
             &:hover{
                 background-color: rgb(102, 102, 225);
             }
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            padding: .2rem;
+            border-top: 0px solidr rgb(102, 102, 225); 
+            border-bottom: 3px solid #666;
+            border-radius: 2px;
+            border: 10px rgb(102, 102, 225);
         }
     }
 
-    .imgheader{
-        margin-top: 100px;
-        width: 45%;
+.imgheader{
+    width: 35%;
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 300px;
 
     }
-}
+       }
+    
+
+
+    
 
     
