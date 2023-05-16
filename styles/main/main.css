@@ -17,7 +17,6 @@ header .logo {
   width: 25px;
   margin-top: 25px;
   padding-inline: 10px;
-  margin-left: 40px;
 }
 header .logo_slack {
   font-size: 30px;
@@ -33,15 +32,14 @@ header nav ul {
   font-weight: bold;
 }
 header .text_header {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
-  padding-top: 160px;
-  justify-content: flex-start;
+  padding-top: 80px;
+  justify-content: center;
   position: absolute;
-  margin-left: 40px;
 }
 header .text_header .primertexto {
   color: white;
@@ -58,44 +56,42 @@ header .text_header .textheaderbtn1 {
   border: 10px solid white;
   color: #541554;
   font-size: 20px;
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  padding: 0.2rem;
   background-color: white;
   border-top: 0px solid #fff;
   border-bottom: 3px solid white;
   border-radius: 2px;
-}
-header .text_header .textheaderbtn1:hover {
-  background-color: white;
-}
-header .text_header .logoregistration {
-  width: 15px;
-}
-header .text_header .textheaderbtn2 {
-  margin: 20px 20px 20px;
-  color: white;
-  background-color: rgb(102, 102, 225);
-  font-size: 20px;
   text-align: center;
   display: block;
   text-decoration: none;
   padding: 0.2rem;
-  border-top: 0px solidr rgb(102, 102, 225);
-  border-bottom: 3px solid #666;
-  border-radius: 2px;
+}
+header .text_header .textheaderbtn1:hover {
+  background-color: white;
+}
+header .text_header .textheaderbtn2 {
+  margin: 20px 20px 20px;
   border: 10px rgb(102, 102, 225);
+  color: white;
+  font-size: 20px;
+  background-color: rgb(102, 102, 225);
+  border-top: 0px solidr rgb(102, 102, 225);
+  border-bottom: 3px solid rgb(102, 102, 225);
+  border-radius: 2px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 0.2rem;
 }
 header .text_header .textheaderbtn2:hover {
   background-color: rgb(102, 102, 225);
 }
 header .imgheader {
-  width: 35%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 300px;
+  margin-top: 400px;
+  position: absolute;
 }
 
 .container {
@@ -109,46 +105,50 @@ header .imgheader {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
-.container .iconsempresas {
+
+.iconos {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  width: 65%;
+  width: 20px;
+  height: 15px;
+  gap: 10px;
+  margin: 30px;
 }
-.container .imgtext {
-  width: 40%;
-  margin-left: 40px;
+.iconos .b_icono {
+  width: 40px;
 }
-.container .textocuadros {
+
+.imgtext {
+  width: 100%;
+  margin-left: 30px;
+  background-color: #F4EDE4;
+}
+
+.textocuadros {
   display: grid;
   justify-content: flex-end;
   justify-items: center;
+  background-color: #F4EDE4;
 }
-.container .titulocuadros {
+
+.titulocuadros {
   font-size: 25px;
   font-weight: bold;
+  background-color: #F4EDE4;
 }
 
 .btninfo {
   color: rgb(108, 108, 231);
   display: grid;
   justify-items: end;
-}
-
-.textocuadros2 {
-  display: grid;
-  justify-content: flex-start;
-  justify-items: center;
-}
-
-.titulocuadros2 {
-  font-size: 25px;
-  font-weight: bold;
+  background-color: #F4EDE4;
 }
 
 .btninfo2 {
   color: rgb(108, 108, 231);
   display: grid;
   justify-items: end;
+  background-color: #F4EDE4;
 }/*# sourceMappingURL=main.css.map */

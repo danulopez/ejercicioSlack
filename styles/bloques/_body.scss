@@ -9,59 +9,54 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    
-    
+    padding: 15px;
   }
-  .iconsempresas{
-    display:flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 65%;
-    
+}
 
+.iconos{
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 15px;
+  gap: 10px;
+  margin: 30px;
+  .b_icono{
+    width: 40px;
   }
-  .imgtext {
-    width: 40%;
-    margin-left: 40px;
+
+}
+
+.imgtext {
+  width: 100%;
+  margin-left: 30px;
+  background-color: #F4EDE4
    
-  }
-  .textocuadros{
-    display: grid;
-    justify-content: flex-end;
-    justify-items: center;
-  }
-    
-        
-    .titulocuadros{
-        font-size: 25px;
-        font-weight: bold;
-    }
+}
+.textocuadros{
+  display: grid;
+  justify-content: flex-end;
+  justify-items: center;
+  background-color: #F4EDE4;
+}
            
-    }
-    .btninfo{
-        color: rgb(108, 108, 231);
-        display: grid;
-        justify-items: end;
-        
-    }
-    .textocuadros2{
-    display: grid;
-    justify-content: flex-start;
-    justify-items: center;
+.titulocuadros{
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #F4EDE4,
+}
+           
+.btninfo{
+  color: rgb(108, 108, 231);
+  display: grid;
+  justify-items: end;
+  background-color: #F4EDE4;
+}
     
-    
-    }
-    .titulocuadros2{
-        font-size: 25px;
-        font-weight: bold;
-        
-    }
-    
-        .btninfo2{
-        color: rgb(108, 108, 231);
-        display: grid;
-        justify-items: end;
-        
+.btninfo2{
+  color: rgb(108, 108, 231);
+  display: grid;
+  justify-items: end;
+  background-color: #F4EDE4;
 
-    }
+}
 
